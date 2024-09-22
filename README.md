@@ -68,28 +68,28 @@ Playground
 
 
 ### Base Tasks
-[ ] Game board: The playing field is displayed with a 5x5 board. (1 point)    
+[X] Game board: The playing field is displayed with a 5x5 board. (1 point)    
 
-[ ] Game board: Oases appear in a random place on the same board (2 points)
+[X] Game board: Oases appear in a random place on the same board (2 points)
 
-[ ] Game board: The player's figure is placed in the centre of the board (1 point)
+[X] Game board: The player's figure is placed in the centre of the board (1 point)
 
-[ ] Movement: The figure can move to one of the adjacent squares. (2 points)
+[X] Movement: The figure can move to one of the adjacent squares. (2 points)
 
-[ ] Digging: We can reveal the field element on which the player stands and what is indicated under it. (2 points)
+[X] Digging: We can reveal the field element on which the player stands and what is indicated under it. (2 points)
 
 ###  Medium tasks
-[ ] Home screen: players have the option to set a name (0.5 points)
+[X] Home screen: players have the option to set a name (0.5 points)
 
-[ ] Home screen: setting players' primary water supply (0.5 points)
+[X] Home screen: setting players' primary water supply (0.5 points)
 
-[ ] Game board: clues are randomly assigned, initially invisible to the players. (1 point)
+[X] Game board: clues are randomly assigned, initially invisible to the players. (1 point)
 
-[ ] Game board: player data is displayed (0.5 points)
+[X] Game board: player data is displayed (0.5 points)
 
-[ ] Actions: The player can perform three arbitrary actions in the round (1 point)
+[X] Actions: The player can perform three arbitrary actions in the round (1 point)
 
-[ ] Actions: It is indicated how many more actions he can perform in his turn, (1 point)
+[X] Actions: It is indicated how many more actions he can perform in his turn, (1 point)
 
 [ ] Actions: The player's water supply is reduced by one at the end of their turn. (0.5 points)
 
