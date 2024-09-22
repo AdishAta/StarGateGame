@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stargate: The IK-1 team is on a mission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="grid-container">
+        <div id="game-space">
+            <div id="game-info">
+                <div id="player-names-left">
+                    <!-- Player information will be displayed here -->
+                </div>
+                <div id="round-info">
+                    <!-- Round information can be displayed here if needed -->
+                </div>
+                <div id="player-names-right">
+                    <!-- Additional player information can be displayed here if needed -->
+                </div>
+            </div>
+            
+            <table id="game-board"></table>
+            <div id="info"></div>
+        </div>
+    </div>
+
+    <div id="game-settings-container">
+        <div id="game-settings">
+            <div class="player-input">
+                <input type="text" id="player1-name" placeholder="Enter Player 1 Name">
+                <input type="number" id="player1-water" placeholder="Enter Player 1 Water Supply">
+            </div>
+            <!-- You can add input fields for other players if needed -->
+            <button id="start-game" class="start-game-button">Start Game</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

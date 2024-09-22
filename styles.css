@@ -1,0 +1,113 @@
+/* Style for layout */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#game-settings {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#player-info {
+    flex: 2;
+}
+
+#players {
+    margin-bottom: 10px;
+}
+
+.player-box {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.player-box input {
+    margin-right: 10px;
+}
+
+.delete-button {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 150px 1fr;
+}
+
+.game-info {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game-space {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-board {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.grid-square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-size: 60px;
+}
+
+td img {
+     width: 50px;
+     height: 50px;
+}
+
+.dug {
+    background-color: bisque;
+}
+
+.oasisInit, .mirageInit {
+    background-image: url(Oasismarker.jpg);
+}
+
+.oasisFin {
+    background-image: url(Assets/Oasis.png);
+}
+
+.mirageFin {
+    background-image: url(Assets/Drought.png);
+}
+
+/* New styles for the home screen */
+#game-settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-input {
+    margin-bottom: 10px;
+}
+
+.start-game-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-game-button:hover {
+    background-color: #45a049;
+}
